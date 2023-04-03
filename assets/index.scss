@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    border: 1px solid ;
+    width: 40%;
+    padding: 20px;
+    min-height: 300px;
+    margin: 150px auto;
+    background-color:azure;
+}
+
+.accordion-head{
+    i{
+        color:black;
+        font-size:25px;
+    }
+    display: flex;
+    justify-content: space-between;
+}
+.accordion-body{
+    transition: 1s ease-in;
+    margin: 20px 0;
+    overflow: hidden;
+    max-height: 0;
+}
+.active{
+    max-height:100px;
+}
+.deactive{
+    max-height:0px;
+}
+p{
+    font-size:15px;
+}
+h3{
+    text-decoration: underline;
+}
